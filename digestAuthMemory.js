@@ -393,6 +393,3 @@ const kettle = (function(){
         }
 	} 
 })(); 
-
-// kettle.SetKettleVariable("value");
-// console.log(kettle.getKettleVariable());
