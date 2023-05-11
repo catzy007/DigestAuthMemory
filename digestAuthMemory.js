@@ -1,4 +1,4 @@
-// RFC 7616 HTTP Digest Authentication MD5 and SHA-256 with localstorage support
+// RFC 7616 HTTP Digest Authentication
 // Adapted from https://github.com/inorganik/digest-auth-request
 // Using forge library from https://github.com/digitalbazaar/forge
 // 2023 Bagus Saputra
