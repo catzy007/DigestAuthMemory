@@ -11,6 +11,7 @@ Adapted from [inorganik/digest-auth-request](https://github.com/inorganik/digest
 Forge library from [digitalbazaar/forge](https://github.com/digitalbazaar/forge) is 
 required.
 
+----------
 ### Usage:
 
 #### GET (with username and password defined)
@@ -58,6 +59,7 @@ let req = new digestAuthRequest();
 req.clrLocalToken();
 ```
 
+--------
 ### Note
 
 After a successful authentication is performed, the digest parameter is saved in JS 
@@ -65,3 +67,6 @@ closures and used for subsequent requests until the page is refreshed or the par
 is cleared.
 
 ![Screenshot](./img/screenshot.png)
+
+To avoid browser sign in prompt, set your back-end to send a different status code if 
+`X-Requested-With: XMLHttpRequest` is being detected for example code 403.
