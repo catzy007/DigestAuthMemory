@@ -13,7 +13,7 @@ required.
 
 ### Usage:
 
-#### GET
+#### GET (with username and password defined)
 ```js
 let url = "./api/get";
 let getData = "message=hello!&foo=bar";
