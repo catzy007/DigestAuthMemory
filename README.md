@@ -1,4 +1,5 @@
 ### DigestAuthMemory
+====================
 
 Javascript implementation of 
 [RFC 2716 HTTP Digest Authentication](https://datatracker.ietf.org/doc/html/rfc7616) 
@@ -11,7 +12,7 @@ required.
 ### Usage:
 
 #### GET
-```
+```js
 let url = "./api/get";
 let getData = "message=hello!&foo=bar";
 
@@ -26,7 +27,7 @@ req.request(function(resp){
 ```
 
 #### POST (send as application/json)
-```
+```js
 let url = "./api/post";
 let postData = {message:'Hello', foo:'bar'};
 
@@ -41,7 +42,7 @@ req.request(function(resp){
 ```
 
 #### POST (send as application/x-www-form-urlencoded)
-```
+```js
 let url = "./api/post";
 let postData = "message=hello!&foo=bar";
 
