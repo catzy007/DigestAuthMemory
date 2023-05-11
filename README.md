@@ -1,5 +1,5 @@
 ### DigestAuthMemory
-====================
+--------------------
 
 Javascript implementation of 
 [RFC 2716 HTTP Digest Authentication](https://datatracker.ietf.org/doc/html/rfc7616) 
