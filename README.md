@@ -51,3 +51,17 @@ req.request(function(resp){
     console.log("Error " + errorCode);
 },postData);
 ```
+
+#### Clear digest parameter
+```js
+let req = new digestAuthRequest();
+req.clrLocalToken();
+```
+
+### Note
+
+After a successful authentication is performed, the digest parameter is saved in JS 
+closures and used for subsequent requests until the page is refreshed or the parameter 
+is cleared.
+
+![Screenshot](./img/screenshot.png)
